@@ -2,7 +2,7 @@ let express = require('express');
 let bodyParser = require( 'body-parser' );
 let app = express();
 let port = process.env.PORT || 55676;
-let host = process.env.HOST || 'localhost';
+//let host = process.env.HOST || 'localhost';
 
 app.use( bodyParser.json() );
 app.use( bodyParser.urlencoded( { extended: true } ) );
@@ -11,7 +11,7 @@ app.use( bodyParser.urlencoded( { extended: true } ) );
 //to show views under app folder
 app.use(express.static(__dirname + "/front"));
 
-app.listen(port, host, function () {
+app.listen(port, function () {
     
 });
 
