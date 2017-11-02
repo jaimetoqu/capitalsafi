@@ -1,8 +1,7 @@
 let express = require('express');
-let logger = require('morgan');
 let bodyParser = require( 'body-parser' );
 let app = express();
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 55676;
 let host = process.env.HOST || 'localhost';
 
 app.use( bodyParser.json() );
@@ -13,6 +12,6 @@ app.use( bodyParser.urlencoded( { extended: true } ) );
 app.use(express.static(__dirname + "/front"));
 
 app.listen(port, host, function () {
-    console.log(port);
+    
 });
 
