@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Capital Safi</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="public/home/home.css" rel="stylesheet">
+        <link href="public/contact/contact.css" rel="stylesheet">
+        <link href="public/financing/financing.css" rel="stylesheet">
+        <link href="public/funds/funds.css" rel="stylesheet">
+        <link href="public/us/us.css" rel="stylesheet">
+        <link href="public/education/education.css" rel="stylesheet">
+        <!-- <link href="blog/blog.css" rel="stylesheet">
+        <link href="post/post.css" rel="stylesheet">
+        <link href="contact/contact.css" rel="stylesheet">
+        <link href="inbox/inbox.css" rel="stylesheet">
+        <link href="comment/comment.css" rel="stylesheet">
+        <link href="home/home.css" rel="stylesheet">
+        <link href="us/us.css" rel="stylesheet">
+        <link href="admin/admin.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- <script src="css/bootstrap.min.css"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/angular.min.js"></script>
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://rawgit.com/dwmkerr/angular-modal-service/master/dst/angular-modal-service.js"></script>
+        <script src="js/angular-ui-router.min.js"></script>
+        <script src="./capital-module.js"></script>
+        <script src="public/public-routes.js"></script>
+        <script src="public/home/home-controller.js"></script>
+        <script src="public/common/url-service.js"></script>
+        <script src="public/contact/contact-controller.js"></script>
+        <script src="public/us/us-controller.js"></script>
+        <script src="public/blog/blog-controller.js"></script>
+        
+    </head>
+    <body ng-app="capital" ng-strict-di>
+        <header>
+            <div class="navbar-header">
+                <div class="navbar-brand">
+                    <a ui-sref="public.home"><img src="public/images/CAPITAL.jpeg" width="80%" height="70px"></a>
+                </div>
+                <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-list" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-list">
+                <ul class="nav navbar-nav navbar-right" id="navbarL">
+                    <li ui-sref-active="active">
+                        <a ui-sref="public.us">NOSOTROS</a>
+                    </li>
+                    <li>
+                        <a ui-sref="public.funds">FONDOS DE INVERSIÓN</a>
+                    </li>
+                    <li>
+                        <a ui-sref="public.financing">FINANCIAMIENTO PARA EMPRESAS</a> 
+                    </li>
+                    <li>
+                        <a ui-sref="public.education">EDUCACIÓN BURSATIL</a>
+                    </li>
+                    <li>
+                        <a ui-sref="public.contact">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <ui-view id="uiview">
+            <div style="text-align: center;">
+                <h2>Cargando...</h2>
+            </div>
+        </ui-view>
+        <footer>
+            <div id="bottomBar">
+                <a ui-sref="public.home"><h2>CAPITAL SAFI</h2></a>
+                <span>&copy; Todos los derechos reservados </span>
+            </div>
+            <div id="contactInf" class="pull-right">
+                <p>info@capitalsafi.com</p>
+                <p>Fernando Guachalla No. 342, Of 602. La Paz, Bolivia</p>
+            </div>
+        </footer>
+    </body>
+</html>

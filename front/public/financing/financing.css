@@ -1,0 +1,9 @@
+#entities {
+    margin: 15px 20px 15px 20px;
+}
+#entities h3 {
+    color: #4682B4;
+}
+#entities p, li {
+    font-size: 1.1em;
+}
