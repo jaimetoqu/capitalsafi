@@ -1,0 +1,75 @@
+#ficHome {
+    margin: 40px 20px;
+}
+#ficHome img {
+    width: 400px;
+    height: 300px;
+}
+#homeM {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+#whyUs h3{
+    text-align: center;
+    color: #4682B4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#benefitsHome {
+    width: 350px;
+    margin: 18px 130px 10px 130px;
+    display: inline-block;
+}
+#clientsHome h3{
+    text-align: center;
+    color: #4682B4;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#clientsImg {
+    text-align: center;
+}
+#clientsImg img {
+    margin: 15px 30px;
+    width: 40%;
+    height: 200px;
+}
+#img-controls {
+    border: solid #4682B4;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 9px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+#solutionsHome h3{
+    text-align: center;
+    color: #4682B4;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#solutions p {
+    margin-top: 10px;
+    display: inline-block;
+    margin: 10px 10px;
+    font-size: 1.1em;
+    height: 100px;
+    width: 150px;
+    color: black;
+}
+/* Large devices */
+@media (min-width: 1199px) {
+    #solutions {
+        margin: 20px 200px;
+    }
+}
+
+

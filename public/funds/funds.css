@@ -1,0 +1,28 @@
+#seed {
+    border: 1px solid #696969;
+    border-radius: 15px;
+    height: 600px;
+    width: 450px;
+    display: inline-block;
+    margin: 20px 15px 10px 15px;
+}
+#fundsImg {
+    margin: 20px 150px;
+}
+#seed p {
+    font-size: 1.1em;
+}
+/* Medium devices */
+@media (max-width: 978px) {
+    #seed {
+        margin-right: 60px;
+        margin-left: 60px; 
+    } 
+}
+/* small devices */
+@media (max-width: 809px) {
+    #fundsImg {
+        margin: 10px 60px;
+        width: 100%;
+    } 
+}

@@ -1,0 +1,36 @@
+#whoTitle h3{
+    text-align: center;
+    color: #4682B4;
+    margin-top: 20px;
+}
+#whoDescription {
+    text-align: center;
+    margin: 20px 20px;
+}
+#whoDescription p{
+    font-size: 1.1em;
+}
+#teamUs h3{
+    text-align: center;
+    color: #4682B4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#profile {
+    width: 400px;
+    margin: 18px 10px 10px 18px;
+    display: inline-block;
+}
+#profile img {
+    margin: 5px 90px;
+    border-radius: 50%;
+    width: 170px;
+    height: 200px;
+}
+#generalExperience {
+    color: black; 
+    display: inline-block;
+}
+#fontBlack {
+    color: black; 
+}

@@ -1,0 +1,60 @@
+#contact-us {
+    margin: 15px 15px 0px 15px;
+}
+#contact-us p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+#contact-info {
+    margin: 0px 15px 15px 15px;
+}
+#contact-info p {
+    font-size: 1.1em;
+}
+#contact-info iframe {
+    margin-top: 15px;
+}
+#contact-info h4 {
+    margin-top: 10px;
+}
+
+/*  
+#contact-main h1 {
+    text-align: center;
+    color: #4682B4;
+}
+#emailI, #descriptionI, #phoneI, #fullNameI {
+    padding: 10px 16px 10px 16px;
+    margin-left: 16px; 
+    margin-bottom: 10px;
+}
+#descriptionI {
+    width: 80%;
+    height: 120px;
+    text-decoration: none;
+}
+#contactUs {
+    margin-left: 16px; 
+    color: #4682B4;
+}
+#contactUs h3 {
+    margin-left: 16px;
+}
+#contactUs p {
+    margin: 16px 0px 16px 16px;
+    color: black;
+}
+#sendBtn {
+    background-color: #4682B4;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 20px 40px;;
+    margin-left: 15px;
+    display: block;   
+}
+#contactUs h4 {
+    margin: 20px 40px; 
+    color: red;
+    float: left;
+}
+*/
