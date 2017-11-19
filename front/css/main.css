@@ -11,7 +11,8 @@ header {
     margin: -10px 12px -10px 12px;
 }
 .navbar-brand img {
-    margin-top: 10px;
+    margin: -5px 10px 0px -28px; 
+    height: 100px;
 }
 .navbar-brand h2 {
     font-family: 'Lora', serif;
@@ -83,10 +84,10 @@ footer {
 /* Small devices */
 @media (min-width: 767px) and (max-width: 1205px) {
     .navbar-brand img {
-        width: 80%;
+        width: 90%;
     }
     #navbarL a {
-        margin-top: 50px;
+        margin-top: 55px;
     }
     header {
         height: 130px;
@@ -95,10 +96,10 @@ footer {
 /* Extra Small devices */
 @media (max-width: 767px) {
     .navbar-brand img {
-        width: 80%;
+        width: 95%;
     }
     header {
-        height: 150px;
+        height: 95px;
     }
     #navbar-list a {
         margin-top: 5px;
