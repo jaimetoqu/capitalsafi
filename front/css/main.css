@@ -4,11 +4,24 @@
     padding-bottom: 5px;
     height: 100px;
 } */
+#bodyCont {
+    /* background-color: #FFFAF0; */
+    background-color: #F5F5F5;
+}
+#logo {
+    text-align: center;
+}
+header {
+    background-color: #4682B4;
+    height: 50px;
+}
 #navHeader {
     background-color: #4682B4;
+    /* margin: 24px 0px;  */
 }
-#uiview {
-    margin-top: 100px;
+#uiView {
+    /* margin: 100px; */
+    margin-top: 20px;
 }
 .navbar-brand {
     margin: -10px 12px -10px 12px;
@@ -17,44 +30,47 @@
     margin: -5px 10px 0px -28px; 
     height: 100px;
 }
-.navbar-brand h2 {
+/* .navbar-brand h2 {
     font-family: 'Lora', serif;
     color: #696969;
     display: inline-block;
     font-size: 1em;
-}
-.navbar-brand span {
+} */
+/* .navbar-brand span {
     font-family: 'Lora', serif;
     color: #696969;
     font-size: 0.7em;
-}
+} */
 .navbar-header #navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #fff;
 }
 .navbar-header button.navbar-toggle {
     clear: both;
-    margin-top: -20px;
+    /* margin-top: -20px; */
 }
-#navbar-list {
-    padding-top: 10px;
-}
+
 #navbar-list ul {
     list-style-type: none;
     overflow: hidden;
     padding-top: 15px;
+    /* margin-left: 30px; */
+    margin-right: 90px;
+    
 }
 #navbarL a:hover, #navbarL a:focus  {
-    color: #696969;
+    /* color: #696969; */
+    color: #9ACD32;
     background-color: #4682B4;
 }
 #navbar-list a {
     font-family: 'Lora', serif;
     color: #fff;
     text-decoration: none;
-    float: right;
-    margin: 0px 10px 12px 0px;
+    /* float: right; */
+    margin: 0px 30px 12px 0px;
     padding: 4px;  
     font-size: 0.9em;
+    text-align: center;
 }
 /*FOOTER*/
 footer {
@@ -89,27 +105,49 @@ footer {
     .navbar-brand img {
         width: 90%;
     }
-    #navbarL a {
+    /* #navbarL a {
         margin-top: 55px;
+    } */
+
+    /* #navbar-list {
+        margin-bottom: -20px;
+    } */
+    /* 
+    #navHeader {
+        margin: 24px 0px; 
     }
-    /* header {
-        height: 130px;
-    }  */
+    #navbarL a {
+        margin-top: 20px;
+    } */
+   
+    #navHeader {
+        margin-bottom: 16px;
+    }
+    
 }
 /* Extra Small devices */
 @media (max-width: 767px) {
-    .navbar-brand img {
+    /* .navbar-brand img {
         width: 95%;
     }
-    /* header {
-        height: 130px;
-    } */
+
     #navbar-list a {
         margin-top: 24px;
         margin-bottom: -10px;
     }
     #navHeader {
         padding-bottom: 30px;
+    } */
+    #logo img {
+        width: 60%;
+    }
+    
+    #navbar-list a {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    #navbar-list {
+        margin-bottom: -20px;
     }
 }
 /* Super Extra Small devices */
@@ -117,6 +155,9 @@ footer {
     /* #bottomBar p {
         margin-top: 50px;
     } */
+    #logo img {
+        width: 80%;
+    }
     #bottomBar {
         display: none;
     }

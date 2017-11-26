@@ -37,42 +37,47 @@
         <script src="public/blog/blog-controller.js"></script>
         
     </head>
-    <body ng-app="capital" ng-strict-di>
-        <div id="navHeader">
-            <div class="navbar-header">
-                <div class="navbar-brand">
-                    <a ui-sref="public.home"><img src="public/images/CAPITAL.jpeg" width="90%"></a>
-                </div>
-           
-                <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-list" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-list">
-                <ul class="nav navbar-nav navbar-right" id="navbarL">
-                    <li ui-sref-active="active">
-                        <a ui-sref="public.us">NOSOTROS</a>
-                    </li>
-                    <li>
-                        <a ui-sref="public.funds">FONDOS DE INVERSIÓN</a>
-                    </li>
-                    <li>
-                        <a ui-sref="public.financing">FINANCIAMIENTO PARA EMPRESAS</a> 
-                    </li>
-                    <li>
-                        <a ui-sref="public.education">EDUCACIÓN BURSATIL</a>
-                    </li>
-                    <li>
-                        <a ui-sref="public.contact">CONTACTO</a>
-                    </li>
-                </ul>
-            </div>
+    <body id="bodyCont" ng-app="capital" ng-strict-di>
+        <div id="logo">
+            <a ui-sref="public.home"><img src="public/images/CAPITAL.jpeg" height="120px" width="40%"></a>
         </div>
-        <ui-view id="uiview">
-            <div style="text-align: center;">
+        <header>
+            <div id="navHeader">
+                <div class="navbar-header">
+                    <!-- <div class="navbar-brand">
+                        <a ui-sref="public.home"><img src="public/images/CAPITAL.jpeg" width="90%"></a>
+                    </div> -->
+            
+                    <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-list" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-list">
+                    <ul class="nav navbar-nav navbar-right" id="navbarL">
+                        <li ui-sref-active="active">
+                            <a ui-sref="public.us">NOSOTROS</a>
+                        </li>
+                        <li>
+                            <a ui-sref="public.funds">FONDOS DE INVERSIÓN</a>
+                        </li>
+                        <li>
+                            <a ui-sref="public.financing">FINANCIAMIENTO PARA EMPRESAS</a> 
+                        </li>
+                        <li>
+                            <a ui-sref="public.education">EDUCACIÓN BURSATIL</a>
+                        </li>
+                        <li>
+                            <a ui-sref="public.contact">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <ui-view id="uiView">
+            <div style="text-align: center; margin-top: 10px;">
                 <h2>Cargando...</h2>
             </div>
         </ui-view>

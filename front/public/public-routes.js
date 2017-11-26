@@ -33,14 +33,6 @@
                 controllerAs: 'contactC',
                 module: 'public'
             })
-            .state('public.blog', {
-                url: '/blog?title=:',
-                templateUrl: './public/blog/blog.html',
-                params: {title: null},
-                controller: 'BlogCtrl',
-                controllerAs: 'blogC',
-                module: 'public'
-            })
             .state('public.funds', {
                 url: '/fondos',
                 templateUrl: './public/funds/funds.html',
