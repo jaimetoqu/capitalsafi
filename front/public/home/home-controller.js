@@ -7,7 +7,7 @@
         let vm = this;
         let count = 0;
         let img = '';
-        vm.img = 'public/images/ALIMENTARIO.JPG';
+        vm.img = 'public/images/CAPITAL.jpeg';
 
         vm.next = () => {
             count ++;
@@ -27,13 +27,13 @@
 
         vm.counter = () => {
             if (count === 0) {
-                vm.img = 'public/images/ALIMENTARIO.JPG';
+                vm.img = 'public/images/CAPITAL.jpeg';
             } else if (count === 1) {
-                vm.img = 'public/images/PRODUCTIVO.JPG';
+                vm.img = 'public/images/PRODUCTIVO.jpg';
             } else if (count === 2) {
                 vm.img = 'public/images/CAPITAL.jpeg';
             } else if (count === 3) {
-                vm.img = 'public/images/ALIMENTARIO.JPG';
+                vm.img = 'public/images/ALIMENTARIO.jpg';
             }
         };
     }
