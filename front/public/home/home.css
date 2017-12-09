@@ -188,4 +188,7 @@
     #itemImg {
         height: 375px;
     }
+    #benefitsHome {
+        margin: 16px;
+    }
 }
