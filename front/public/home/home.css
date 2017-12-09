@@ -1,26 +1,107 @@
-#ficHome {
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 0px;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    z-index: 1;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel .item {
+    height: 375px;
+    /* background-color:#555; */
+  }
+  .carousel img {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    /* min-height: 100px; */
+  }
+  
+  /* carousel clientes */
+  #quote-carousel 
+  {
+    padding: 0 10px 30px 10px;
+    margin-top: 80px;
+    height: 250px;
+  }
+  .carousel-control {
+    background-color: #fff;
+  }
+  
+  /* Control buttons  */
+  #quote-carousel .carousel-control
+  {
+    background-color: none;
+    color: rgb(245, 231, 231);
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+  }
+  /* Previous button  */
+  #quote-carousel .carousel-control.left 
+  {
+    left: -12px;
+    color: #4682B4;
+  }
+  /* Next button  */
+  #quote-carousel .carousel-control.right 
+  {
+    right: -12px !important;
+    color: #4682B4;
+  }
+  /* Changes the position of the indicators */
+  #quote-carousel .carousel-indicators 
+  {
+    right: 50%;
+    top: auto;
+    bottom: -95px;
+    margin-right: -19px;
+  }
+  /* Changes the color of the indicators */
+  #quote-carousel .carousel-indicators li 
+  {
+    background: #c0c0c0;
+  }
+  #quote-carousel .carousel-indicators .active 
+  {
+    background: #f8eaea;
+  }
+  #quote-carousel img
+  {
+    text-align: center;
+    width: 250px;
+    height: 375px;
+  }
+  /* End carousel */
+
+/* #ficHome {
     margin: 40px 20px;
 }
 #ficHome img {
     width: 400px;
     height: 300px;
-}
+} */
 #homeM {
     text-align: center;
     font-size: 1.2em;
     margin-top: 20px;
 }
-#whyUs h3{
+ #whyUs h3{
     text-align: center;
     color: #4682B4;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 #benefitsHome {
     width: 350px;
     margin: 18px 130px 10px 130px;
     display: inline-block;
 }
+/*
 #clientsHome h3{
     text-align: center;
     color: #4682B4;
@@ -49,7 +130,7 @@
 .left {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
-}
+} */
 #solutionsHome h3{
     text-align: center;
     color: #4682B4;
@@ -70,6 +151,41 @@
     #solutions {
         margin: 20px 200px;
     }
+    #itemImg {
+        height: 375px;
+    }
 }
+@media (min-width: 767px) and (max-width: 1199px) { 
+    #itemImg {
+        height: 375px;
+    }
 
-
+}
+@media (min-width: 767px) and (max-width: 1013px) { 
+    #itemImg {
+        height: 375px;
+    }
+}
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    /* #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    } */
+    #itemImg {
+        height: 375px;
+    }
+}

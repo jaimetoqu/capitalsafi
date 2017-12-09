@@ -23,13 +23,13 @@ header {
     /* margin: 100px; */
     margin-top: 20px;
 }
-.navbar-brand {
+/* .navbar-brand {
     margin: -10px 12px -10px 12px;
 }
 .navbar-brand img {
     margin: -5px 10px 0px -28px; 
     height: 100px;
-}
+} */
 /* .navbar-brand h2 {
     font-family: 'Lora', serif;
     color: #696969;
@@ -52,10 +52,14 @@ header {
 #navbar-list ul {
     list-style-type: none;
     overflow: hidden;
-    padding-top: 15px;
+    padding-top: 12px;
     /* margin-left: 30px; */
     margin-right: 90px;
+    padding-bottom: 18px;
     
+}
+#navbarL {
+    background-color: #4682B4;
 }
 #navbarL a:hover, #navbarL a:focus  {
     /* color: #696969; */
@@ -102,6 +106,9 @@ footer {
 }
 /* Small devices */
 @media (min-width: 767px) and (max-width: 1205px) {
+    #logo img {
+        width: 50%;
+    }
     .navbar-brand img {
         width: 90%;
     }
@@ -119,10 +126,15 @@ footer {
     #navbarL a {
         margin-top: 20px;
     } */
-   
-    #navHeader {
-        margin-bottom: 16px;
+    #navbar-list > li {
+        margin-bottom: 10px;
     }
+    #navbarL {
+        background-color: #4682B4;
+    }
+    /* #navHeader > span {
+        margin-bottom: 10px;
+    } */
     
 }
 /* Extra Small devices */
@@ -138,6 +150,9 @@ footer {
     #navHeader {
         padding-bottom: 30px;
     } */
+    #navbarL {
+        background-color: #4682B4;
+    }
     #logo img {
         width: 60%;
     }
@@ -155,8 +170,11 @@ footer {
     /* #bottomBar p {
         margin-top: 50px;
     } */
+    #navbarL {
+        background-color: #4682B4;
+    }
     #logo img {
-        width: 80%;
+        width: 90%;
     }
     #bottomBar {
         display: none;

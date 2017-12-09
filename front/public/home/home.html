@@ -1,8 +1,50 @@
-<div id="ficHome">
+ <!-- Carousel -->
+<!-- <div class="overlay"></div> -->
+<div id="myCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img id="itemImg" src="public/images/micro3.jpg" width="100%">
+      <div class="container">
+        <div class="carousel-caption">
+          </div>
+      </div>
+    </div>
+    <div class="item">
+      <img id="itemImg" src="public/images/fruta4.jpeg" width="100%">
+      <div class="container">
+        <div class="carousel-caption">
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img id="itemImg" src="public/images/manufacturero.jpg" width="100%">
+      <div class="container">
+        <div class="carousel-caption">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <i class="glyphicon glyphicon-chevron-left"></i>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <i class="glyphicon glyphicon-chevron-right"></i>
+  </a>  
+</div>
+<!-- /.carousel -->
+
+<!-- <div id="ficHome">
     <img src="public/images/micro3.jpg">
     <img src="public/images/sembrar2.jpg">
     <img src="public/images/manufacturero.jpg">
-</div>
+</div> -->
 <div id="homeM" class="container">
     <p>Trabajar para ser la mejor administradora de fondos de inversión del país, ofreciendo a nuestros clientes:
             inversionistas institucionales y participantes,  productos financieros innovadores, de valor agregado y de impacto social, buscando obtener una rentabilidad atractiva, con un riesgo controlado, promoviendo el desarrollo de pequeñas, medianas y grandes empresa generando relaciones de largo plazo.</p>
@@ -23,14 +65,14 @@
     <li>A través de esta novedosa forma de financiamiento, las empresas cuentan con nuevas alternativas de financiamiento, que les permiten optimizar su estructura financiera.</li>
     <li>Esta forma de financiamiento permite a las empresas introducirse al financiamiento a través del mercado de valores.</li>
 </div>
-<div id="clientsHome" class="container">
+<!-- <div id="clientsHome" class="container">
     <h3>Nuestros clientes</h3>
 </div>
 <div id="clientsImg" class="container">
     <i id="img-controls" class="arrow left" ng-click="homeC.previous()"></i>
     <img ng-src="{{homeC.img}}" alt="picture">
     <i id="img-controls" class="arrow right" ng-click="homeC.next()"></i>
-</div>
+</div> -->
 <div id="solutionsHome" class="container">
     <h3>Soluciones de calidad para nuestros clientes</h3>
 </div>

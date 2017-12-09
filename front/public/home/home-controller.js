@@ -39,3 +39,26 @@
     }
     
 })();
+$(document).ready(function() {
+    //Set the carousel options
+    $('#myCarousel').carousel({
+      pause: true,
+      interval: 2500,
+    });
+    $('#quote-carousel').carousel({
+        pause: true,
+        interval: 4000,
+      });
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 200) {
+          $('.go-top').fadeIn(200);
+        } else {
+          $('.go-top').fadeOut(200);
+        }
+      });
+      // Animate the scroll to top
+      $('.go-top').click(function(event) {
+        event.preventDefault();
+        $('html, body').animate({scrollTop: 0}, 300);
+      })
+  });
